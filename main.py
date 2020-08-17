@@ -4,7 +4,7 @@ from fastapi import FastAPI, File
 
 from face_recognizer import FaceRecognizer
 face_rec = FaceRecognizer()
-face_rec.create_known_faces('../data/mask_nomask')
+face_rec.create_known_faces('data/mask_nomask')
 
 app = FastAPI()
 
