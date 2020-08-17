@@ -1,0 +1,5 @@
+dlib==19.20.0
+opencv_python==4.2.0.34
+onnxruntime==1.2.0
+fastapi==0.61.0
+numpy==1.19.1
