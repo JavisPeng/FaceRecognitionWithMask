@@ -8,11 +8,11 @@ numpy==1.19.1
 ```
 
 # How to use ?
-## 1. build the target database
-Put all target pictures in one directory (**data/mask_nomask** in this project)，one person with two picture masked and none-masked is recommended,the file naming is **name.index.jpg**
+##  1. build the target database
+Put all target pictures in one directory (**data/mask_nomask** in this project), one person with two picture masked and none-masked is recommended, the file naming is **name.index.jpg**
 ![ target database](https://img-blog.csdnimg.cn/20200813183849696.png?#pic_center)
 ## 2. dowload the weight files
-you can download the all weight files from [baiduyun](https://pan.baidu.com/s/1i9i7Y3eclsiz95BSMl0NUA)   passwd：60ri，and put them in data directory
+you can download the all weight files from [baiduyun](https://pan.baidu.com/s/1i9i7Y3eclsiz95BSMl0NUA) passwd：60ri, and put them in data directory
 
 ## 3. test a video demo
 
@@ -27,3 +27,9 @@ uvicorn main:app --reload --host 0.0.0.0
 ```
 you can upload a picture from http://127.0.0.1:8000/docs,and retrive the face recognition information [name,box,mask or not]
 ![fastapi](https://img-blog.csdnimg.cn/20200813221935981.jpg#pic_center)
+
+
+# reference
+https://github.com/sgrvinod/a-PyTorch-Tutorial-to-Object-Detection
+https://github.com/AIZOOTech/FaceMaskDetection
+https://github.com/davisking/dlib
