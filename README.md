@@ -29,6 +29,8 @@ uvicorn main:app --reload --host 0.0.0.0
 you can upload a picture from http://127.0.0.1:8000/docs,and retrive the face recognition information [name,box,mask or not]
 ![fastapi](https://img-blog.csdnimg.cn/20200813221935981.jpg#pic_center)
 
+# blogs
+https://blog.csdn.net/jiangpeng59/article/details/107986046
 
 # reference
 https://github.com/sgrvinod/a-PyTorch-Tutorial-to-Object-Detection
