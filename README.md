@@ -16,6 +16,7 @@ Put all target pictures in one directory (**data/mask_nomask** in this project),
 you can download the all weight files from 
 1. [baiduyunpan](https://pan.baidu.com/s/1i9i7Y3eclsiz95BSMl0NUA) passwd：60ri  need a baidu account
 2. [lanzhoucloud](https://wws.lanzous.com/igD2Ymgphfa)   no restriction to download
+
 and put them in data directory
 
 ## 3. test a video demo
