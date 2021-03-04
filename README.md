@@ -9,9 +9,9 @@ numpy==1.19.1
 
 # How to use ?
 ##  1. build the target database
-Put all target pictures in one directory (**data/mask_nomask** in this project), one person with two picture masked and none-masked is recommended, the file naming is **name.index.jpg**
+Put all target pictures in a directory (**data/mask_nomask** in this project), one person with two picture masked and none-masked, the way of file naming is **name.index.jpg**
 
-![ target database](https://img-blog.csdnimg.cn/20200813183849696.png?#pic_center)
+![target database](https://img-blog.csdnimg.cn/20200813183849696.png?#pic_center)
 ## 2. dowload the weight files
 you can download the all weight files from 
 1. [baiduyunpan](https://pan.baidu.com/s/1i9i7Y3eclsiz95BSMl0NUA) passwd：60ri  need a baidu account
