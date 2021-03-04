@@ -9,13 +9,13 @@ numpy==1.19.1
 
 # How to use ?
 ##  1. build the target database
-Put all target pictures in a directory (**data/mask_nomask** in this project), one person with two picture masked and none-masked, the way of file naming is **name.index.jpg**
+Put all target pictures in a directory (**data/mask_nomask** in this project), one person with some of pictures (masked and none-masked is recommended), the way of file naming is **name.index.jpg**
 
 ![target database](https://img-blog.csdnimg.cn/20200813183849696.png?#pic_center)
 ## 2. dowload the weight files
 you can download the all weight files from 
-1. [baiduyunpan](https://pan.baidu.com/s/1i9i7Y3eclsiz95BSMl0NUA) passwd：60ri  need a baidu account
-2. [lanzhoucloud](https://wws.lanzous.com/igD2Ymgphfa)   no restriction to download
+1. [baiduyunpan](https://pan.baidu.com/s/1i9i7Y3eclsiz95BSMl0NUA) passwd：**60ri**   (need a baidu account)
+2. [lanzhoucloud](https://wws.lanzous.com/igD2Ymgphfa)   (no restriction to download）
 
 and put them in data directory
 
@@ -30,7 +30,7 @@ python demo_video.py  --face_db_root data/mask_nomask --input_video_path 0.mp4 -
 ```bash
 uvicorn main:app --reload --host 0.0.0.0
 ```
-you can upload a picture from http://127.0.0.1:8000/docs,and retrive the face recognition information [name,box,mask or not]
+you can upload a picture from http://127.0.0.1:8000/docs, and retrive the face recognition information [name,box,mask or not]
 ![fastapi](https://img-blog.csdnimg.cn/20200813221935981.jpg#pic_center)
 
 # blogs
